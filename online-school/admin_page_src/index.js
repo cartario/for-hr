@@ -130,7 +130,11 @@ const Page = ({
             onChange={onPupilGradeGoalChange}
           >
             {Object.keys(GoalNamesMap).map((each) => {
-              return <MenuItem value={each}>{GoalNamesMap[each]}</MenuItem>;
+              return (
+                <MenuItem key={each.id} value={each}>
+                  {GoalNamesMap[each]}
+                </MenuItem>
+              );
             })}
           </Select>
         </FormControl>
@@ -154,7 +158,11 @@ const Page = ({
                 onChange={(e) => onDiagnosticsChange(e, i)}
               >
                 {RATES.map((each) => {
-                  return <MenuItem value={each}>{each}</MenuItem>;
+                  return (
+                    <MenuItem key={each} value={each}>
+                      {each}
+                    </MenuItem>
+                  );
                 })}
               </Select>
             </FormControl>
@@ -179,7 +187,11 @@ const Page = ({
               onChange={onExamChange}
             >
               {exams.map((each) => {
-                return <MenuItem value={each.id}>{each.examDate}</MenuItem>;
+                return (
+                  <MenuItem key={each.id} value={each.id}>
+                    {each.examDate}
+                  </MenuItem>
+                );
               })}
             </Select>
           </FormControl>
@@ -205,6 +217,7 @@ const Page = ({
           {programContents &&
             programContents.map((moduleItem, moduleIndex) => (
               <Accordion
+                key={moduleItem.id}
                 className={`${classes.module} ${
                   moduleItem.durationForPupil === 'pass' && classes.error
                 }`}
@@ -233,7 +246,11 @@ const Page = ({
                       onChange={(e) => onChangeModuleDuration(e, moduleIndex)}
                     >
                       {Object.keys(ModuleDurations).map((each) => {
-                        return <MenuItem value={each}>{ModuleDurations[each]}</MenuItem>;
+                        return (
+                          <MenuItem key={each.id} value={each}>
+                            {ModuleDurations[each]}
+                          </MenuItem>
+                        );
                       })}
                     </Select>
                   </FormControl>

@@ -50,7 +50,9 @@ const Filter = ({ userId, subjects, filter, setFilter, klasses, loadProgramAsync
           onChange={onChangeSubject}
         >
           {subjects.map((subj) => (
-            <MenuItem value={subj}>{ProgramNames[subj]}</MenuItem>
+            <MenuItem key={subj.id} value={subj}>
+              {ProgramNames[subj]}
+            </MenuItem>
           ))}
         </Select>
       </FormControl>
