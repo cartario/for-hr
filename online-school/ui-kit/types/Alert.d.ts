@@ -1,5 +1,5 @@
 export type Variants = 'filled' | 'outlined' | 'standard';
-export type Colors = 'error' | 'info' | 'success' | 'warning';
+export type Colors = 'error' | 'info' | 'success' | 'warning'; 
 
 export type AlertProps = {
   color?: Colors;
