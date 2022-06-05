@@ -2,5 +2,6 @@
 
 There are my own code examples from projects:
 
--online-school (many features were hidden for copyrights reasons)
--web3 - not-commercial [learning now]
+1. online-school (many features were hidden for copyrights reasons) <br/>
+2. web3 - not-commercial [learning now] <br/>
+3. telegram-bot - pet-project
