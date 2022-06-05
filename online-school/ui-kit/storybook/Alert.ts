@@ -59,7 +59,7 @@ Filled.args = {
   withAction: true,
 };
 
-Outlined.args = {
+Outlined.args = { 
   variant: 'outlined',
   title: 'Hello! I am title',
   message: 'Hello! I am message',

@@ -10,6 +10,6 @@ export type AlertProps = {
   message: string;
   action?: {
     name: string;
-    cb: () => void;
+    cb: () => void; 
   };
 };

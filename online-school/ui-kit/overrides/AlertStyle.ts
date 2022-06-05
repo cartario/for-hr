@@ -5,7 +5,7 @@ import palette from './themeCore/palette';
 const COLORS = ['error', 'info', 'warning', 'success'];
 
 const getFilledStyles = () => {
-  const styles = {};
+  const styles = {}; 
 
   COLORS.forEach((each) => {
     styles[`filled${capitalize(each)}`] = {

@@ -13,7 +13,7 @@ const useStyles = makeStyles(() => ({
   root: {
     alignItems: 'center',
   },
-}));
+})); 
 
 const Alert = ({
   className, action, title, message, color, variant, severity, ...others
