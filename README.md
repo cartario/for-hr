@@ -8,4 +8,8 @@ There are my own code examples from projects:
 4. telegram-bot - pet-project [02/2022] <br/>
 5. optimacross - [test-task]. Checkout https://github.com/cartario/test-task_optimacross [06/2022] <br/>
 
+Hackathons:
+1.Moscow Travel Hack 2020 (web application)
+2.VTB*Magnit 2020 (ar/vr mobile application) - https://www.instagram.com/tv/CPNxtVAhEeM/?igshid=MDJmNzVkMjY= 
+
 Here you will find just a pieces of collection, only for reading - not for running.
