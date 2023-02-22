@@ -11,5 +11,6 @@ There are my own code examples from projects:
 Hackathons:
 1.Moscow Travel Hack 2020 (web application)
 2.VTB*Magnit 2020 (ar/vr mobile application) - https://www.instagram.com/tv/CPNxtVAhEeM/?igshid=MDJmNzVkMjY= 
+3.Финалист VK NFT x DEFINITION HACKATHON 2023, трек- Управление доступом к контенту через NFT (VK miniapp)
 
 Here you will find just a pieces of collection, only for reading - not for running.
